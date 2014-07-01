@@ -17,7 +17,7 @@ fi
 
 # Convert to html then make one of the html tags above caret 
 # into a link that we scroll down to
-"${TM_MARKDOWN:-redcarpet.rb}"|"${TM_SMARTYPANTS:-SmartyPants.pl}"|ruby -e '
+"${TM_MARKDOWN:-gfm.rb}"|ruby -e '
 lines = STDIN.read.split("\n")
 n = [ENV["TM_LINE_NUMBER"].to_i, lines.length].min - 7
 
