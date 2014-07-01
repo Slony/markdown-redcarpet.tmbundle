@@ -13,7 +13,7 @@
 		<key>caret</key>
 		<string>#FFFFFF</string>
 		<key>fontName</key>
-		<string>Andale Mono</string>
+		<string>Monaco</string>
 		<key>foreground</key>
 		<string>#888888</string>
 	</dict>

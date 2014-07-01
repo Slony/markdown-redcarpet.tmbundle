@@ -1,229 +1,71 @@
-/*------------------------------------------------------------------------------
-  @group Textmate Chrome
-------------------------------------------------------------------------------*/
 
-.github #tm_webpreview_header{
-  color:#eee;
-  background:#333;
-  border-bottom:2px solid #ccc;
-}
-
-.github #tm_webpreview_header #gradient{
-  display:none;
-}
-
-.github #tm_webpreview_header p{
-  margin:0 0 15px 0 !important;
-}
-
-/* @end */
-
-/*------------------------------------------------------------------------------
-  @group Wiki Styles
-------------------------------------------------------------------------------*/
-body {
-	background-color: white;
-	width: 920px;
-	margin: 0 auto;
-}
-
-.github{
-  font-family:Helvetica !important;
-}
-
-
-
-div.github{
-  background:#f8f8f8;
-	border: 1px solid #E9E9E9;
-	padding: 0.7em !important;
-}
-
-body * {
-	line-height: 1.4em;
-}
-
-* {
-	margin: 0px;
-}
-
-.github h1, h2, h3, h4, h5, h6 {
-  border: 0 !important;
-}
-
-.github h1 {
-  font-size: 170% !important;
-  border-top: 4px solid #aaa !important;
-  padding-top: .5em !important;
-  margin-top: 1.5em !important;
-}
-
-  .github h1:first-child {
-    margin-top: 0 !important;
-    padding-top: .25em !important;
-    border-top: none !important;
-  }
-
-.github h2 {
-  font-size: 150% !important;
-  margin-top: 1.5em !important;
-  border-top: 4px solid #e0e0e0 !important;
-  padding-top: .5em !important;
-}
-
-.github h3 {
-  margin-top: 1em !important;
-}
-
-.github p {
-  margin: 1em 0 !important;
-  line-height: 1.5em !important;
-}
-
-.github ul {
-  margin: 1em 0 1em 2em !important;
-}
-
-  .github ul {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
-
-.github ol {
-  margin: 1em 0 1em 2em !important;
-}
-
-  .github ol ol {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
-
-.github ul ul,
-.github ul ol,
-.github ol ol,
-.github ol ul {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.github blockquote {
-  margin: 1em 0 !important;
-  border-left: 5px solid #ddd !important;
-  padding-left: .6em !important;
-  color: #555 !important;
-}
-
-.github dt {
-  font-weight: bold !important;
-  margin-left: 1em !important;
-}
-
-.github dd {
-  margin-left: 2em !important;
-  margin-bottom: 1em !important;
-}
-
-.github table {
-  margin: 1em 0 !important;
-}
-
-  .github table th {
-    border-bottom: 1px solid #bbb !important;
-    padding: .2em 1em !important;
-  }
-
-  .github table td {
-    border-bottom: 1px solid #ddd !important;
-    padding: .2em 1em !important;
-  }
-
-.github pre {
-	margin:1em 0;
-	font-size:12px;
-	background-color:#eee;
-	border:1px solid #ddd;
-	padding:5px;
-	line-height:1.5em !important;
-	color:#444;
-	overflow:auto;
-	-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	border-radius:3px;
-}
-
-.github pre, .github code {
-	font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
-
-
-  .github pre::-webkit-scrollbar {
-    height: 8px;
-    width: 8px;
-  }
-
-  .github pre::-webkit-scrollbar-track-piece {
-    margin-bottom:10px;
-    background-color:#e5e5e5;
-    border-bottom-left-radius:4px 4px;
-    border-bottom-right-radius:4px 4px;
-    border-top-left-radius: 4px 4px;
-    border-top-right-radius: 4px 4px;
-  }
-
-  .github pre::-webkit-scrollbar-thumb:vertical {
-    height: 15px;
-    background-color: #ccc;
-    -webkit-border-radius: 4px;
-  }
-
-  .github pre::-webkit-scrollbar-thumb:horizontal {
-    width: 15px;
-    background-color: #ccc;
-    -webkit-border-radius: 4px;
-  }
-
-  .github pre code {
-    padding: 0 !important;
-    font-size: 12px !important;
-    background-color: #EEE !important;
-    border: none !important;
-  }
-
-.github code {
-	font-size:12px!important;
-	background-color:#f8f8ff!important;
-	color:#444!important;
-	padding:0 .2em!important;
-	border:1px solid #dedede!important;
-}
-
-/* console */
-
-.github pre.console {
-  margin: 1em 0 !important;
-  font-size: 90% !important;
-  background-color: black !important;
-  padding: .5em !important;
-  line-height: 1.5em !important;
-  color: white !important;
-}
-	.github img {max-width: 100%}
-
-  .github pre.console code {
-    padding: 0 !important;
-    font-size: 100% !important;
-    background-color: black !important;
-    border: none !important;
-    color: white !important;
-  }
-
-  .github pre.console span {
-    color: #888 !important;
-  }
-
-  .github pre.console span.command {
-    color: yellow !important;
-  }
-
-/* @end */
+  
+  .github_textmate_preview{font-size:15px;line-height:1.7;word-wrap:break-word}
+  .github_textmate_preview>*:first-child{margin-top:0 !important}
+  .github_textmate_preview>*:last-child{margin-bottom:0 !important}
+  .github_textmate_preview a.absent{color:#c00}
+  .github_textmate_preview a.anchor{display:block;padding-right:6px;padding-left:30px;margin-left:-30px;cursor:pointer;position:absolute;top:0;left:0;bottom:0}
+  .github_textmate_preview a.anchor:focus{outline:none}
+  .github_textmate_preview h1,.github_textmate_preview h2,.github_textmate_preview h3,.github_textmate_preview h4,
+  .github_textmate_preview h5,.github_textmate_preview h6{margin:1em 0 15px;padding:0;font-weight:bold;line-height:1.7;cursor:text;position:relative}
+  .github_textmate_preview h1 .octicon-link,.github_textmate_preview h2 .octicon-link,
+  .github_textmate_preview h3 .octicon-link,.github_textmate_preview h4 .octicon-link,.github_textmate_preview h5 .octicon-link,
+  .github_textmate_preview h6 .octicon-link{display:none;color:#000}
+  .github_textmate_preview h1:hover a.anchor,.github_textmate_preview h2:hover a.anchor,
+  .github_textmate_preview h3:hover a.anchor,.github_textmate_preview h4:hover a.anchor,
+  .github_textmate_preview h5:hover a.anchor,.github_textmate_preview h6:hover a.anchor{text-decoration:none;line-height:1;padding-left:8px;margin-left:-30px;top:15%}
+  .github_textmate_preview h1:hover a.anchor .octicon-link,.github_textmate_preview h2:hover a.anchor .octicon-link,
+  .github_textmate_preview h3:hover a.anchor .octicon-link,.github_textmate_preview h4:hover a.anchor .octicon-link,
+  .github_textmate_preview h5:hover a.anchor .octicon-link,.github_textmate_preview h6:hover a.anchor .octicon-link{display:inline-block}
+  .github_textmate_preview h1 tt,.github_textmate_preview h1 code,.github_textmate_preview h2 tt,.github_textmate_preview h2 code,
+  .github_textmate_preview h3 tt,.github_textmate_preview h3 code,.github_textmate_preview h4 tt,.github_textmate_preview h4 code,
+  .github_textmate_preview h5 tt,.github_textmate_preview h5 code,.github_textmate_preview h6 tt,.github_textmate_preview h6 code{font-size:inherit}
+  .github_textmate_preview h1{font-size:2.5em;border-bottom:1px solid #ddd}
+  .github_textmate_preview h2{font-size:2em;border-bottom:1px solid #eee}
+  .github_textmate_preview h3{font-size:1.5em}
+  .github_textmate_preview h4{font-size:1.2em}
+  .github_textmate_preview h5{font-size:1em}
+  .github_textmate_preview h6{color:#777;font-size:1em}
+  .github_textmate_preview p,.github_textmate_preview blockquote,.github_textmate_preview ul,.github_textmate_preview ol,
+  .github_textmate_preview dl,.github_textmate_preview table,.github_textmate_preview pre{margin:15px 0}
+  .github_textmate_preview hr{background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;border:0 none;color:#ccc;height:4px;padding:0;margin:15px 0}
+  .github_textmate_preview ul,.github_textmate_preview ol{padding-left:30px}
+  .github_textmate_preview ul.no-list,.github_textmate_preview ol.no-list{list-style-type:none;padding:0}
+  .github_textmate_preview ul ul,.github_textmate_preview ul ol,.github_textmate_preview ol ol,.github_textmate_preview ol ul{margin-top:0;margin-bottom:0}
+  .github_textmate_preview dl{padding:0}
+  .github_textmate_preview dl dt{font-size:14px;font-weight:bold;font-style:italic;padding:0;margin-top:15px}
+  .github_textmate_preview dl dd{margin-bottom:15px;padding:0 15px}
+  .github_textmate_preview blockquote{border-left:4px solid #DDD;padding:0 15px;color:#777}
+  .github_textmate_preview blockquote>:first-child{margin-top:0px}
+  .github_textmate_preview blockquote>:last-child{margin-bottom:0px}
+  .github_textmate_preview table{width:100%;overflow:auto;display:block}
+  .github_textmate_preview table th{font-weight:bold}
+  .github_textmate_preview table th,.github_textmate_preview table td{border:1px solid #ddd;padding:6px 13px}
+  .github_textmate_preview table tr{border-top:1px solid #ccc;background-color:#fff}
+  .github_textmate_preview table tr:nth-child(2n){background-color:#f8f8f8}
+  .github_textmate_preview img{max-width:100%;-moz-box-sizing:border-box;box-sizing:border-box}
+  .github_textmate_preview span.frame{display:block;overflow:hidden}
+  .github_textmate_preview span.frame>span{border:1px solid #ddd;display:block;float:left;overflow:hidden;margin:13px 0 0;padding:7px;width:auto}
+  .github_textmate_preview span.frame span img{display:block;float:left}
+  .github_textmate_preview span.frame span span{clear:both;color:#333;display:block;padding:5px 0 0}
+  .github_textmate_preview span.align-center{display:block;overflow:hidden;clear:both}
+  .github_textmate_preview span.align-center>span{display:block;overflow:hidden;margin:13px auto 0;text-align:center}
+  .github_textmate_preview span.align-center span img{margin:0 auto;text-align:center}
+  .github_textmate_preview span.align-right{display:block;overflow:hidden;clear:both}
+  .github_textmate_preview span.align-right>span{display:block;overflow:hidden;margin:13px 0 0;text-align:right}
+  .github_textmate_preview span.align-right span img{margin:0;text-align:right}
+  .github_textmate_preview span.float-left{display:block;margin-right:13px;overflow:hidden;float:left}
+  .github_textmate_preview span.float-left span{margin:13px 0 0}
+  .github_textmate_preview span.float-right{display:block;margin-left:13px;overflow:hidden;float:right}
+  .github_textmate_preview span.float-right>span{display:block;overflow:hidden;margin:13px auto 0;text-align:right}
+  .github_textmate_preview code,.github_textmate_preview tt{margin:0;border:1px solid #ddd;background-color:#f8f8f8;border-radius:3px;padding:0}
+  .github_textmate_preview code:before,.github_textmate_preview code:after,.github_textmate_preview tt:before,
+  .github_textmate_preview tt:after{content:"\00a0";letter-spacing:-0.2em}
+  .github_textmate_preview code br,.github_textmate_preview tt br{display:none}
+  .github_textmate_preview del code{text-decoration:inherit;vertical-align:text-top}
+  .github_textmate_preview pre>code{margin:0;padding:0;white-space:pre;border:none;background:transparent}
+  .github_textmate_preview .highlight pre,.github_textmate_preview pre{background-color:#f8f8f8;border:1px solid #ddd;font-size:13px;line-height:19px;overflow:auto;padding:6px 10px;border-radius:3px}
+  .github_textmate_preview pre{word-wrap:normal}
+  .github_textmate_preview pre code,.github_textmate_preview pre tt{margin:0;padding:0;background-color:transparent;border:none;word-wrap:normal;max-width:initial;display:inline;overflow:initial;line-height:inherit}
+  .github_textmate_preview pre code:before,.github_textmate_preview pre code:after,.github_textmate_preview pre tt:before,
+  .github_textmate_preview pre tt:after{content:normal}
